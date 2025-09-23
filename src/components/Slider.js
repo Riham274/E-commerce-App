@@ -1,7 +1,7 @@
 import React from "react";
 import image1 from "./images/img1.jpg";
-import image2 from "./images/img2.webp";
-import image3 from "./images/img3.webp";
+import image2 from "./images/img2.jpg";
+import image3 from "./images/img3.jpg";
 import "./Slider.css";
 
 function Slider() {
@@ -10,13 +10,13 @@ function Slider() {
       <div id="carouselExample" className="carousel slide">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={image1} className="d-block w-100 height-500" alt="..." />
+            <img src={image1} className="d-block w-100 height-600" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={image2} className="d-block w-100 height-500" alt="..." />
+            <img src={image2} className="d-block w-100 height-600" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={image3} className="d-block w-100 height-500" alt="..." />
+            <img src={image3} className="d-block w-100 height-600" alt="..." />
           </div>
         </div>
         <button
