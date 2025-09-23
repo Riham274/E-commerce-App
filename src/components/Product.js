@@ -2,7 +2,7 @@ function Product(props) {
   const { product } = props;
   return (
     <>
-      <div className="card">
+      <div className="card mb-5">
         <img src={product.image} className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">{product.title}</h5>
