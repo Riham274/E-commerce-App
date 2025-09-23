@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import ProductList from "./components/ProductList";
 import Slider from "./components/Slider";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Slider />
+      <ProductList />
     </div>
   );
 }
