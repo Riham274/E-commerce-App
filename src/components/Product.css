@@ -1,0 +1,58 @@
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: contain;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+  min-height: 50px;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #666;
+  max-height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-body p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+  transition: 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+}
+
+.btn-info {
+  margin: 5px;
+  background-color: #17a2b8;
+  border: none;
+  transition: background-color 0.2s ease;
+}
+
+.btn-info:hover {
+  background-color: #138496;
+}
