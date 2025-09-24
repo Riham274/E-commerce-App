@@ -1,6 +1,6 @@
 # 🛒 React E-commerce App
 
-A simple e-commerce web app built with **=React**, styled using **Bootstrap + custom CSS**, and powered by **[Fake Store API](https://fakestoreapi.com/)**.
+A simple e-commerce web app built with **React**, styled using **Bootstrap + custom CSS**, and powered by **[Fake Store API](https://fakestoreapi.com/)**.
 
 ---
 
@@ -45,5 +45,3 @@ A simple e-commerce web app built with **=React**, styled using **Bootstrap + cu
 5. Build for production:
 
    npm run build
-
-تحبي أكتبلك نسخة بالعربي كمان (للتوثيق الداخلي أو للعرض على زملاءك) جنب هاي النسخة الإنج
